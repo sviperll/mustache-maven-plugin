@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -9,7 +8,7 @@
 
     <groupId>com.github.sviperll</groupId>
     <artifactId>mustache-maven-plugin</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>maven-plugin</packaging>
 
     <name>mustache-maven-plugin Maven Plugin</name>
@@ -151,7 +150,7 @@
         <connection>scm:git:git://github.com/sviperll/mustache-maven-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:sviperll/mustache-maven-plugin.git</developerConnection>
         <url>https://github.com/sviperll/mustache-maven-plugin</url>
-        <tag>HEAD</tag>
+        <tag>mustache-maven-plugin-0.1</tag>
     </scm>
     <distributionManagement>
         <site>
