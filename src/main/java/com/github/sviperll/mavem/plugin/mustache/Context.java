@@ -4,6 +4,7 @@
 package com.github.sviperll.mavem.plugin.mustache;
 
 import java.io.File;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -24,11 +25,11 @@ public class Context {
      *   <li>properties
      * </ul>
      */
-    String type;
+    String type = "json";
 
     /**
      * File to read or write properties to.
      */
-    List<Template> templates;
+    List<Template> templates = Collections.emptyList();
 
 }
